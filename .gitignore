@@ -7,6 +7,11 @@
 CLAUDE.local.md
 .claude/settings.local.json
 
+# Run log, proposals and handoff requests (hold guest data)
+runs/*
+!runs/.gitkeep
+!runs/README.md
+
 # Python
 __pycache__/
 *.py[cod]
